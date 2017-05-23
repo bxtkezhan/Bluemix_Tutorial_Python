@@ -7,7 +7,7 @@
 	<body>
 		<ol>
 			{% for item in channel %}
-			<p><a href="{{ item[1].text }}">{{ item[0].text }}</a></p>
+			<li><a href="{{ item[1].text }}">{{ item[0].text }}</a></li>
 			{% endfor %}
 		</ol>
 	</body>
